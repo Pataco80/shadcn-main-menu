@@ -7,7 +7,7 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"git:init": "git flow init -d && git checkout develop && git push -u origin develop"
+		"git:init": "git flow init -d && git checkout main && git push -u origin main && git checkout develop && git push -u origin develop"
 	},
 	"dependencies": {
 		"@radix-ui/react-slot": "^1.1.2",
